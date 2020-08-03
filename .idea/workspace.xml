@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02cd4a9f-3216-48c6-bbf2-063d96b7067e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/AuthServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/client/GlobalDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/entity/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/AuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtAuthenticationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtUsernamePasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/LoginObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/UserAttempts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/role/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/securityUser/SecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/service/SecurityUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authServer/src/test/java/com/benneighbour/practicebnb/authServer/AuthServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/src/main/java/com/benneighbour/practicebnb/eurekaServer/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/src/test/java/com/benneighbour/practicebnb/eurekaServer/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/GatewayServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/RequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/AuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/JwtAuthenticationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/JwtUsernamePasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/LoginObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayServer/src/test/java/com/benneighbour/practicebnb/gatewayServer/GatewayServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/PropertyServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/controller/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/dao/PropertyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/model/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertyServer/src/test/java/com/benneighbour/practicebnb/propertyServer/PropertyServerApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/gatewayServer/target/" />
+    <ignored path="$PROJECT_DIR$/authServer/target/" />
+    <ignored path="$PROJECT_DIR$/eurekaServer/target/" />
+    <ignored path="$PROJECT_DIR$/propertyServer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/client/GlobalDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/controller/PropertyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/propertyServer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/propertyServer/pom.xml" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/UserAttempts.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/role/Role.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/securityUser/SecurityUser.java" />
+        <option value="$PROJECT_DIR$/authServer/pom.xml" />
+        <option value="$PROJECT_DIR$/authServer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/SecurityUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/AuthServerApplication.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/entity/Property.java" />
+        <option value="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/Property.java" />
+        <option value="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/dao/PropertyDao.java" />
+        <option value="$PROJECT_DIR$/gatewayServer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/User.java" />
+        <option value="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/model/Property.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/client/GlobalDao.java" />
+        <option value="$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/controller/PropertyController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1282" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="practicebnbParent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02cd4a9f-3216-48c6-bbf2-063d96b7067e" name="Default Changelist" comment="" />
+      <created>1596375729263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596375729263</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25566342" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="GraphQL" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.37782806" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16100323" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/role/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/UserAttempts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propertyServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="36" column="17" selection-start-line="34" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/securityUser/SecurityUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/AuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/LoginObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/JwtUsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/JwtAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/JwtAuthenticationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/common/security/AuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/LoginObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtUsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtAuthenticationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/service/SecurityUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/AuthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/entity/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/dao/PropertyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propertyServer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/model/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2912#2913#0" expanded="true" />
+            <element signature="e#3025#3026#0" expanded="true" />
+            <element signature="e#3050#3051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/client/GlobalDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/propertyServer/src/main/java/com/benneighbour/practicebnb/propertyServer/controller/PropertyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
