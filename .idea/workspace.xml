@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02cd4a9f-3216-48c6-bbf2-063d96b7067e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/client/GlobalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/client/GlobalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtUsernamePasswordAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtUsernamePasswordAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/authServer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authServer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -81,11 +85,11 @@
         <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/model/user/User.java" />
         <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/ElasticConfig.java" />
-        <option value="$PROJECT_DIR$/authServer/pom.xml" />
         <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/controller/UserController.java" />
         <option value="$PROJECT_DIR$/gatewayServer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/authServer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/authServer/src/main/java/com/benneighbour/practicebnb/authServer/common/security/JwtUsernamePasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/authServer/pom.xml" />
       </list>
     </option>
   </component>
@@ -242,14 +246,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2394822" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2394822" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32013574" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32013574" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -575,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authServer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gatewayServer/src/main/java/com/benneighbour/practicebnb/gatewayServer/RequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -605,8 +602,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authServer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
         </state>
       </provider>
     </entry>
