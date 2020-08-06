@@ -3,6 +3,7 @@ package com.benneighbour.practicebnb.authServer.common.security;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import io.micrometer.core.instrument.Metrics;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -12,7 +13,6 @@ import org.springframework.security.web.authentication.AbstractAuthenticationPro
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import javax.servlet.FilterChain;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -42,8 +42,7 @@ public class JwtUsernamePasswordAuthenticationFilter
       HttpServletRequest request,
       HttpServletResponse response,
       FilterChain chain,
-      Authentication authResult)
-      throws IOException, ServletException {
+      Authentication authResult) {
     // Create a new token, and make sure to sign it with the right hashing algorithm
     Instant now = Instant.now();
     String token =
@@ -59,7 +58,8 @@ public class JwtUsernamePasswordAuthenticationFilter
             .signWith(SignatureAlgorithm.HS256, config.getSecret().getBytes())
             .compact();
 
-//    response.flushBuffer();
+    // Log stuff here:
+    Metrics.counter("authentication.currently-logged-on").increment(1);
 
     // Create a cookie with the JWT in it
     response.addHeader(
@@ -69,7 +69,7 @@ public class JwtUsernamePasswordAuthenticationFilter
   @Override
   public Authentication attemptAuthentication(
       HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
-      throws AuthenticationException, IOException, ServletException {
+      throws AuthenticationException, IOException {
     // Read the login request values (username, password)
     LoginObj loginRequest = mapper.readValue(httpServletRequest.getInputStream(), LoginObj.class);
     return getAuthenticationManager()

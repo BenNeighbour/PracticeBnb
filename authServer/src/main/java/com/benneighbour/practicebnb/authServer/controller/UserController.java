@@ -4,6 +4,8 @@ import com.benneighbour.practicebnb.authServer.common.client.GlobalDao;
 import com.benneighbour.practicebnb.authServer.dao.UserDao;
 import com.benneighbour.practicebnb.authServer.model.user.User;
 import com.benneighbour.practicebnb.authServer.model.user.role.Role;
+import io.micrometer.core.instrument.MeterRegistry;
+import io.micrometer.core.instrument.simple.SimpleMeterRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +23,8 @@ class UserController {
 
   @Autowired private GlobalDao globalDao;
 
+  private MeterRegistry meter = new SimpleMeterRegistry();
+
   @PostMapping("/new")
   public User createUser(@Valid @RequestBody User user) {
     Role role = new Role();
@@ -36,7 +40,7 @@ class UserController {
   }
 
   @GetMapping("/get")
-  public User getUser(@RequestParam("userId") UUID userId) {
+  public User getUser(@RequestParam("userId") UUID userId) throws Exception {
     return globalDao.getUserById(userId);
   }
 }

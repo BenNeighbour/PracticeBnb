@@ -1,6 +1,5 @@
 package com.benneighbour.practicebnb.authServer.common.client;
 
-import com.benneighbour.practicebnb.authServer.common.entity.Property;
 import com.benneighbour.practicebnb.authServer.dao.UserDao;
 import com.benneighbour.practicebnb.authServer.model.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,12 +16,20 @@ public class GlobalDao {
 
   @Autowired private UserDao userDao;
 
-  public User getUserById(UUID id) {
+  public User getUserById(UUID id) throws Exception {
     User user = userDao.findUserById(id);
 
-    user.setProperties(
-        restTemplate.getForObject("http://localhost:8081/property/all/by/" + id, List.class));
+    if (user != null) {
+      try {
+        user.setProperties(
+            restTemplate.getForObject("http://localhost:8081/property/all/by/" + id, List.class));
+        return user;
 
-    return user;
+      } catch (Exception e) {
+        throw new Exception(e);
+      }
+    }
+
+    throw new RuntimeException("User does not exist!");
   }
 }
